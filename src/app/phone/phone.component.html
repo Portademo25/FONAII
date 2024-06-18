@@ -1,0 +1,84 @@
+<mat-toolbar>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <button mat-button (click)="gotoHome()" class="toolbarbutton">Fona</button> 
+                    <button class="toolbarbutton1" (click)="gotoEstructura()" mat-button>Estructura Organizativa</button>
+                    <button class="toolbarbutton2" (click)="gotoRRHH()" mat-button>Recursos Humanos</button> 
+                    <button class="toolbarbutton3" (click)="gotoFasmij()" mat-button>Fasmij</button> 
+                    <button class="toolbarbutton4" (click)="gotoPhone()" mat-button>Telefonos</button> 
+                    <button class="toolbarbutton5" (click)="gotoForms()" mat-button>Formatos</button>
+                    <button class="toolbarbutton6" (click)="gotoManual()" mat-button>Manuales</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+</mat-toolbar>
+
+
+
+    <input matInput (keyup)="applyFilter($event)" placeholder=" Buscar la Direccion" #input>
+  
+   
+    <table mat-table [dataSource]="dataSource" class="mat-elevatuin-z8">
+  
+      <!--Posicion de Columnas-->
+       <ng-container matColumnDef="position">
+        <th mat-header-cell *matHeaderCellDef> No.</th>
+        <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+      </ng-container> 
+  
+      <!--Nombre de Direccion-->
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Direccion </th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+      </ng-container>
+  
+      <!--Nombre de Contacto-->
+      <ng-container matColumnDef="contact">
+        <th mat-header-cell *matHeaderCellDef>Persona Contacto</th>
+        <td mat-cell *matCellDef="let element"> {{element.contact}} </td>
+      </ng-container>
+  
+      <!--Numero de Extension-->
+      <ng-container matColumnDef="extension">
+        <th mat-header-cell *matHeaderCellDef> Extension </th>
+        <td mat-cell *matCellDef="let element"> {{element.extension}} </td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  
+      <tr class="mat-row" *matNoDataRow>
+        <td class="mat-cell" colspan="4"> No se consiguio la informacion en el filtro "{{input.value}}"</td>
+      </tr>
+  
+    </table>
+   
+   
+
+   <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <img class="ministerio" src="../../assets/Img/mini2.png" alt="" > 
+      <img class="sunad" src="../../assets/Img/SUNAD-scaled.jpg" alt="">
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/FONAoficial">
+          <i class="bi bi-facebook"></i>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/FONA_oficial">
+          <i class="bi bi-twitter"></i>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/fona_oficial/">
+          <i class="bi bi-instagram"></i>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.youtube.com/@fondonacionalantidrogas4837">
+          <i class="bi bi-youtube"></i>
+          </a></li>
+      </ul>
+    </footer> 

@@ -49,4 +49,6 @@ export class HomeComponent {
   gotoForms(){
     this.router.navigateByUrl('forms')
   }
+
+  
 }
