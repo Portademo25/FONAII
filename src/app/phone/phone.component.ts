@@ -3,6 +3,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import { Router } from '@angular/router';
+import {MatInputModule} from '@angular/material/input';
+
 
 
 export interface Extensiones {
@@ -37,7 +39,8 @@ const ELEMENT_DATA: Extensiones[] = [
   imports: [
     MatToolbarModule,
     MatFormFieldModule,
-    MatTableModule
+    MatTableModule,
+    MatInputModule
     
   ],
   templateUrl: './phone.component.html',

@@ -18,7 +18,10 @@
 
 
 
-    <input matInput (keyup)="applyFilter($event)" placeholder=" Buscar la Direccion" #input>
+<mat-form-field>
+  <mat-label>Filter</mat-label>
+  <input matInput (keyup)="applyFilter($event)" placeholder="Direccion" #input>
+</mat-form-field>
   
    
     <table mat-table [dataSource]="dataSource" class="mat-elevatuin-z8">
