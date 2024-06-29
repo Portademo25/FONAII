@@ -1,4 +1,14 @@
-<button mat-raised-button (click)="openInstructivo('0ms', '0ms')" class="Instructivo"><i class="bi bi-cloud-arrow-down"></i>Instructivos</button>
-<button mat-raised-button (click)="openMemo('0ms', '0ms')" class="memo"><i class="bi bi-cloud-arrow-down"></i>Memos</button>
-<button mat-raised-button  (click)="openMinuta('0ms', '0ms')" class="minuta"><i class="bi bi-cloud-arrow-down"></i>Minutas</button>
-<button mat-raised-button (click)="openOficio('0ms', '0ms')" class="oficio"><i class="bi bi-cloud-arrow-down"></i>Oficio</button>
+<div class="container-modal">
+  <div class="row">
+    <mat-card class="memo" appearance="outlined">
+      <mat-card-header>
+        <div mat-card-avatar class="memoimg"></div>
+        <mat-card-title>Memorandum</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="../../../assets/Img/memorandum-2.webp">
+      <mat-card-actions>
+        <button mat-raised-button (click)="openMemo('0ms','0ms')" class="memos"><i class="bi bi-download"></i>Descargar </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
