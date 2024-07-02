@@ -27,7 +27,7 @@ export class ModalsComponent {
 
   openInstructivo(enterAnimationDuration: string, exitAnimationDuration: string): void {
     this.dialog.open(InstructivoComponent, {
-      width: '250px',
+      width: '350px',
       enterAnimationDuration,
       exitAnimationDuration,
     });
