@@ -35,7 +35,7 @@ export class ModalsComponent {
 
   openMemo(enterAnimationDuration: string, exitAnimationDuration: string): void {
     this.dialog.open(MemoComponent, {
-      width: '250px',
+      width: '350px',
       enterAnimationDuration,
       exitAnimationDuration,
     });
@@ -43,7 +43,7 @@ export class ModalsComponent {
 
   openMinuta(enterAnimationDuration: string, exitAnimationDuration: string): void{
     this.dialog.open(MinutaComponent,{
-      width: '250px',
+      width: '350px',
       enterAnimationDuration,
       exitAnimationDuration,
     });
@@ -51,7 +51,7 @@ export class ModalsComponent {
 
   openOficio(enterAnimationDuration:string, exitAnimationDuration:string): void{
     this.dialog.open(OficioComponent,{
-      width: '250px',
+      width: '350px',
       enterAnimationDuration,
       exitAnimationDuration,
     });
