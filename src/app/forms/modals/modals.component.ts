@@ -98,7 +98,7 @@ export class ModalsComponent {
 
   openInforme(enterAnimationDuration:string, exitAnimationDuration:string): void{
     this.dialog.open(PuntoDeInformacionComponent,{
-      width:'350px',
+      width: '350px',
       enterAnimationDuration,
       exitAnimationDuration,
     });

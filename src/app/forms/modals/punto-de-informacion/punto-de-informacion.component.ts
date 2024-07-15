@@ -1,6 +1,6 @@
 import { Component, inject, ChangeDetectionStrategy } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { MatDialogModule, MatDialog, MatDialogActions, MatDialogClose,MatDialogRef, MatDialogContent} from '@angular/material/dialog';
+import { MatDialog, MatDialogActions, MatDialogClose,MatDialogRef, MatDialogContent} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-punto-de-informacion',
