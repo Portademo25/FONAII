@@ -205,9 +205,9 @@ th{
    }
 
 .footer{
-    position: relative;
+    position: absolute;
     width: 100%;
-    top:700px;
+    top: 1100px;
     background: #3586ff;
     min-height: 223px;
     padding: 34px 50px;
@@ -329,3 +329,9 @@ th{
     min-width: 40%;
     margin: auto;
 }
+
+.mat-mdc-form-field {
+    font-size: 14px;
+    width: 40%;
+    margin-left: 571px;
+  }
