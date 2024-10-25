@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 //Importacion de modulos de la vista home
 import { MatToolbarModule } from "@angular/material/toolbar";
-import { MatCardModule } from "@angular/material/card"
+import { MatCardModule } from "@angular/material/card";
+import { MatButtonModule } from '@angular/material/button';
 
 //importacion de router para las rutas o redireccion
 import { Router } from '@angular/router';
@@ -13,7 +14,9 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
+
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
