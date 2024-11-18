@@ -16,6 +16,7 @@ import { InformeInternoComponent } from './informe-interno/informe-interno.compo
 import { ActaDeEntregaComponent } from './acta-de-entrega/acta-de-entrega.component';
 import { PuntoDeInformacionComponent } from './punto-de-informacion/punto-de-informacion.component';
 import { ConsejoComponent } from './consejo/consejo.component';
+import { DoblefirmaComponent } from './doblefirma/doblefirma.component';
 
 
 @Component({
@@ -106,6 +107,15 @@ export class ModalsComponent {
 
   openConsejo(enterAnimationDuration:string, exitAnimationDuration:string): void{
     this.dialog.open(ConsejoComponent,{
+      width:'350px',
+      enterAnimationDuration,
+      exitAnimationDuration
+    })
+  }
+
+
+  openDobleFirma(enterAnimationDuration:string, exitAnimationDuration:string): void{
+    this.dialog.open(DoblefirmaComponent,{
       width:'350px',
       enterAnimationDuration,
       exitAnimationDuration
