@@ -3,12 +3,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { Router } from '@angular/router';
 import { ModalComponent } from './modal/modal.component';
 import { MatCardActions, MatCardHeader, MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 
 @Component({
   selector: 'app-fasmij',
   standalone: true,
-  imports: [MatToolbarModule, ModalComponent, MatCardModule],
+  imports: [MatToolbarModule, ModalComponent, MatCardModule,MatButtonModule],
   templateUrl: './fasmij.component.html',
   styleUrl: './fasmij.component.scss'
 })

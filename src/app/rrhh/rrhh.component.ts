@@ -2,11 +2,13 @@ import { Component } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { Router } from '@angular/router'
 import { ModalComponent } from '../rrhh/modal/modal.component';
+import { MatButtonModule } from '@angular/material/button';
+
 
 @Component({
   selector: 'app-rrhh',
   standalone: true,
-  imports: [MatToolbarModule, ModalComponent],
+  imports: [MatToolbarModule, ModalComponent,MatButtonModule],
   templateUrl: './rrhh.component.html',
   styleUrl: './rrhh.component.scss'
 })

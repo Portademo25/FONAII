@@ -4,6 +4,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import { Router } from '@angular/router';
 import {MatInputModule} from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
 
 
 
@@ -40,7 +41,8 @@ const ELEMENT_DATA: Extensiones[] = [
     MatToolbarModule,
     MatFormFieldModule,
     MatTableModule,
-    MatInputModule
+    MatInputModule,
+    MatButtonModule
     
   ],
   templateUrl: './phone.component.html',

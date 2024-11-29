@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ModalsComponent } from './modals/modals.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,7 +9,8 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [
     ModalsComponent,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule
   ],
   templateUrl: './forms.component.html',
   styleUrl: './forms.component.scss'
