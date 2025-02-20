@@ -4,11 +4,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-estructura',
-  standalone: true,
-  imports: [MatToolbarModule,MatButtonModule],
-  templateUrl: './estructura.component.html',
-  styleUrl: './estructura.component.scss'
+    selector: 'app-estructura',
+    imports: [MatToolbarModule, MatButtonModule],
+    templateUrl: './estructura.component.html',
+    styleUrl: './estructura.component.scss'
 })
 export class EstructuraComponent {
 

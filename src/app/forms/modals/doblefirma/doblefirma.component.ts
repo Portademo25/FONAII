@@ -3,12 +3,11 @@ import { MatDialog, MatDialogActions, MatDialogClose, MatDialogContent, MatDialo
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-doblefirma',
-  standalone: true,
-  imports: [MatButtonModule, MatDialogActions, MatDialogClose, MatDialogContent, MatDialogTitle],
-  templateUrl: './doblefirma.component.html',
-  styleUrl: './doblefirma.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'app-doblefirma',
+    imports: [MatButtonModule, MatDialogActions, MatDialogClose, MatDialogContent, MatDialogTitle],
+    templateUrl: './doblefirma.component.html',
+    styleUrl: './doblefirma.component.scss',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DoblefirmaComponent {
 

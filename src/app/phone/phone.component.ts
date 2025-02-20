@@ -35,18 +35,16 @@ const ELEMENT_DATA: Extensiones[] = [
 
 
 @Component({
-  selector: 'app-phone',
-  standalone: true,
-  imports: [
-    MatToolbarModule,
-    MatFormFieldModule,
-    MatTableModule,
-    MatInputModule,
-    MatButtonModule
-    
-  ],
-  templateUrl: './phone.component.html',
-  styleUrl: './phone.component.scss'
+    selector: 'app-phone',
+    imports: [
+        MatToolbarModule,
+        MatFormFieldModule,
+        MatTableModule,
+        MatInputModule,
+        MatButtonModule
+    ],
+    templateUrl: './phone.component.html',
+    styleUrl: './phone.component.scss'
 })
 export class PhoneComponent {
 

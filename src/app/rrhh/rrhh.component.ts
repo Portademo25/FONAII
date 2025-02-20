@@ -6,11 +6,10 @@ import { MatButtonModule } from '@angular/material/button';
 
 
 @Component({
-  selector: 'app-rrhh',
-  standalone: true,
-  imports: [MatToolbarModule, ModalComponent,MatButtonModule],
-  templateUrl: './rrhh.component.html',
-  styleUrl: './rrhh.component.scss'
+    selector: 'app-rrhh',
+    imports: [MatToolbarModule, ModalComponent, MatButtonModule],
+    templateUrl: './rrhh.component.html',
+    styleUrl: './rrhh.component.scss'
 })
 export class RrhhComponent {
  constructor (private router: Router){}

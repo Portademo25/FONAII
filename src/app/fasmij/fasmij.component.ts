@@ -7,11 +7,10 @@ import { MatButtonModule } from '@angular/material/button';
 
 
 @Component({
-  selector: 'app-fasmij',
-  standalone: true,
-  imports: [MatToolbarModule, ModalComponent, MatCardModule,MatButtonModule],
-  templateUrl: './fasmij.component.html',
-  styleUrl: './fasmij.component.scss'
+    selector: 'app-fasmij',
+    imports: [MatToolbarModule, ModalComponent, MatCardModule, MatButtonModule],
+    templateUrl: './fasmij.component.html',
+    styleUrl: './fasmij.component.scss'
 })
 export class FasmijComponent {
 

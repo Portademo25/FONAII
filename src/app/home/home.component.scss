@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    
+
 }
 
 mat-toolbar{
@@ -15,11 +15,11 @@ ul{
 
 button{
     display: inline-block;
-    
+
 }
 
 .toolbarbutton{
-   
+
     background-color: #254E82;
     border: 1px;
     margin-right: 10px;
@@ -83,25 +83,25 @@ button{
 }
 
 .toolbarbutton:hover{
-    
+
     background-image: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115% );
     animation:slidebg 5s linear infinite;
 }
 
 .toolbarbutton1:hover{
-    
+
     background-image: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115% );
     animation:slidebg 5s linear infinite;
 }
 
 .toolbarbutton2:hover{
-    
+
     background-image: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115% );
     animation:slidebg 5s linear infinite;
 }
 
 .toolbarbutton3:hover{
-    
+
     background-image: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115% );
     animation:slidebg 5s linear infinite;
 }
@@ -113,19 +113,19 @@ button{
   }
 
 .toolbarbutton4:hover{
-    
+
     background-image: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115% );
     animation:slidebg 5s linear infinite;
 }
-  
+
 .toolbarbutton5:hover{
-    
+
     background-image: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115% );
     animation:slidebg 5s linear infinite;
 }
 
 .toolbarbutton6:hover{
-    
+
     background-image: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115% );
     animation:slidebg 5s linear infinite;
 }
@@ -135,7 +135,7 @@ button{
     display: flex;
     max-width: 960px;
     box-shadow: 29px 19px 15px 5px #212121;
-    
+
 }
 .box{
     display: flex;
@@ -163,7 +163,7 @@ button{
 .card-best{
     margin-top:  45px;
     max-width: 400px;
-    
+
 }
 
 .card-best-header-image{
@@ -181,7 +181,7 @@ mat-card{
 .footer {
     position: absolute;
     width: 100%;
-    background: #3586ff;
+    background: rgb(3 126 167);
     min-height: 223px;
     padding: 34px 50px;
     display: flex;
@@ -244,7 +244,7 @@ mat-card{
   left: 0;
   width: 100%;
   height: 100px;
-  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background: url("../../assets/Img/wave.png");
   background-size: 1000px 100px;
 }
 

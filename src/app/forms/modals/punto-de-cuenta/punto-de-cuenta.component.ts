@@ -4,12 +4,11 @@ import  { MatDialog, MatDialogActions, MatDialogClose, MatDialogContent, MatDial
  
 
 @Component({
-  selector: 'app-punto-de-cuenta',
-  standalone: true,
-  imports: [MatButtonModule, MatDialogActions, MatDialogClose, MatDialogTitle, MatDialogContent],
-  templateUrl: './punto-de-cuenta.component.html',
-  styleUrl: './punto-de-cuenta.component.scss',
-  changeDetection:ChangeDetectionStrategy.OnPush
+    selector: 'app-punto-de-cuenta',
+    imports: [MatButtonModule, MatDialogActions, MatDialogClose, MatDialogTitle, MatDialogContent],
+    templateUrl: './punto-de-cuenta.component.html',
+    styleUrl: './punto-de-cuenta.component.scss',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PuntoDeCuentaComponent {
 

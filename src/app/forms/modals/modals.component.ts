@@ -20,12 +20,11 @@ import { DoblefirmaComponent } from './doblefirma/doblefirma.component';
 
 
 @Component({
-  selector: 'app-modals',
-  standalone: true,
-  imports: [ MatButtonModule, MatCardModule],
-  templateUrl: './modals.component.html',
-  styleUrl: './modals.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-modals',
+    imports: [MatButtonModule, MatCardModule],
+    templateUrl: './modals.component.html',
+    styleUrl: './modals.component.scss',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ModalsComponent {
 

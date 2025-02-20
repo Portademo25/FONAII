@@ -5,12 +5,11 @@ import  { MatDialog, MatDialogActions, MatDialogClose, MatDialogContent, MatDial
 
 
 @Component({
-  selector: 'app-memo',
-  standalone: true,
-  imports: [MatButtonModule, MatDialogActions, MatDialogClose, MatDialogTitle, MatDialogContent],
-  templateUrl: './memo.component.html',
-  styleUrl: './memo.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-memo',
+    imports: [MatButtonModule, MatDialogActions, MatDialogClose, MatDialogTitle, MatDialogContent],
+    templateUrl: './memo.component.html',
+    styleUrl: './memo.component.scss',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MemoComponent {
 

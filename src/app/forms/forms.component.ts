@@ -5,15 +5,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-forms',
-  standalone: true,
-  imports: [
-    ModalsComponent,
-    MatToolbarModule,
-    MatButtonModule
-  ],
-  templateUrl: './forms.component.html',
-  styleUrl: './forms.component.scss'
+    selector: 'app-forms',
+    imports: [
+        ModalsComponent,
+        MatToolbarModule,
+        MatButtonModule
+    ],
+    templateUrl: './forms.component.html',
+    styleUrl: './forms.component.scss'
 })
 export class FormsComponent {
  

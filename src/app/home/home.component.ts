@@ -10,16 +10,14 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [
-    MatToolbarModule,
-    MatCardModule,
-    MatButtonModule
-
-  ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+    selector: 'app-home',
+    imports: [
+        MatToolbarModule,
+        MatCardModule,
+        MatButtonModule
+    ],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.scss'
 })
 export class HomeComponent {
 
